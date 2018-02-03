@@ -23,6 +23,8 @@ namespace aplimat_labs.Utilities
             return random.NextDouble() * (max - min) + min;
         }
 
+        
+
         public int GenerateInt()
         {
             return (int)random.Next((int)min, (int)max);
